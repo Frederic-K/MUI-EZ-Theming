@@ -4,6 +4,8 @@ import { teal, purple, amber, deepOrange, grey } from '@mui/material/colors'
 import darkBG from '../assets/5053309-dark.jpg'
 import lightBG from '../assets/5053309-light.jpg'
 
+import CssBaseline from '@mui/material/CssBaseline'
+
 export default function Themes(modeTheme) {
   const mode = modeTheme
 
@@ -102,6 +104,6 @@ export default function Themes(modeTheme) {
     [mode]
   )
   return {
-    theme: purpleTheme,
+    theme: halloweenTheme,
   }
 }
