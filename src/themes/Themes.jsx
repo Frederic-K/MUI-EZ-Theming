@@ -11,7 +11,8 @@ export default function Themes(modeTheme) {
 
   const violetTheme = createTheme({
     palette: {
-      // mode: 'light',
+      // let mode to de able to call default dark mode if needed
+      mode,
       primary: {
         main: '#8471c9',
       },
